@@ -1,0 +1,122 @@
+﻿
+.cc-header-botton {
+    z-index: 999 !important;
+    position: absolute !important;
+}
+
+.cc-table thead tr {
+    background: #9fc1f1 !important;
+}
+
+.cc-table tbody tr td {
+    padding: 1px 10px !important;
+}
+
+.dataTables_empty {
+    text-align: center !important;
+}
+
+table.dataTable thead th {
+    padding: 6px;
+}
+
+tfoot tr th.dt-right {
+    /*padding-right: 10px;*/
+}
+
+.cc-table > tfoot tr th:first-child,
+.cc-table > tbody tr td:first-child {
+    text-align: right;
+    padding: 0px 10px !important;
+}
+
+.dataTables_filter > label {
+    margin-bottom: unset !important;
+}
+
+    .dataTables_filter > label > input[type="search"] {
+        height: 26px;
+    }
+
+.cc-table > tfoot > tr > th:not(.dt-right) {
+    padding: unset !important;
+}
+
+.cc-table > tfoot > tr > th.dt-right {
+    padding: 1px 10px !important;
+}
+
+.dataTables_scrollBody > table > tfoot > tr > th {
+    padding: 0px !important;
+}
+
+.cc-table.dataTable tbody th,
+.cc-table.dataTable tbody td {
+    white-space: nowrap;
+}
+
+.max-field-width {
+    max-width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dt-checkbox {
+    text-align: -webkit-center !important;
+    text-align: center;
+}
+
+    .dt-checkbox > input[type="checkbox"] {
+        margin: 0px !important;
+        width: 17px;
+        height: 17px;
+    }
+
+div.cc-table-register-header + div {
+    padding-top: 0px;
+}
+
+div.cc-table-edit-buttons + div + div.row,
+div.cc-table-edit-buttons + div {
+    padding-top: 35px;
+}
+.cc-table-edit-head{
+    //margin-bottom:-35px;
+}
+
+
+
+input[type="search"] {
+   // -webkit-appearance: button;
+   // height: 25px;
+}
+
+/*@media only screen and (min-height:768px) {
+    .dataTables_scrollBody {
+        min-height: 450px !important;
+    }
+}
+
+@media only screen and (max-height:600px) {
+    .dataTables_scrollBody {
+        min-height: 330px !important;
+    }
+}
+
+@media only screen and (min-height:662px) {
+    .dataTables_scrollBody {
+        min-height: 400px !important;
+    }
+}*/
+
+.cc-table.dataTable {
+    width: 100% !important;
+}
+/*.dataTables_scrollHeadInner, .dataTables_scrollFootInner {
+    width: 100% !important;
+}*/
+
+
+.dataTables_scrollBody {
+    position: unset !important;
+}
